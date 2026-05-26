@@ -1,8 +1,6 @@
 name: Fetch Trump Truth Social Posts
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'    # 每15分钟
   workflow_dispatch:
 
 permissions:
